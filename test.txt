@@ -1,0 +1,41 @@
+- Caso convencional
+te, 1, 2, 3, 4, 5
+
+- Nombre con menos de dos caracteres
+a,1,2,3,4,5
+
+- Nombre no alfabetico
+a1,1,1,1,1,1
+
+- Nombre con más de 15 caracteres
+abcdefghi...16, 1,1,1,1,1
+
+- Tamaño 0
+te,0,1,2,3,4
+
+- Más de 5 tamaños
+te,1,2,3,4,5,6
+
+- Caso correcto con espacio en el nombre (ignora espacios)
+t e, 1,2,3,4,5 :D
+
+- Tamaños no ascendentes
+te, 12, 1, 2, 3, 4
+
+- Nombre no en primer lugar
+23, te, 1, 3, 4, 5
+
+- Tamaño más de 48
+te, 1, 2, 3, 4, 49
+
+- Tamaños no enteros
+te, 1.0, 1.1, 1.2, 1, 1
+
+- Sin tamaños
+te, ,
+
+- Sin nombre
+ , 1, 3, 4
+
+- Más de un nombre
+te, cafe, 2 , 3, 4
